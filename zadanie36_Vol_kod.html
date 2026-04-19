@@ -1,0 +1,57 @@
+<html>
+<head>
+ <script type="text/javascript">
+ function okno_zamknij_siejka()
+ {
+ window.close()
+ }
+ </script>
+</head>
+<body>
+ <form>
+
+ <textarea name="siejka" cols="80" rows="20" readonly>
+
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <title>Voloshchuk Z36_JS</title>
+</head>
+
+<body>
+
+    <div style="color:red; font-size:50px;">
+
+        <script language="JavaScript">
+
+            var x = prompt("podaj liczbę x=", "");
+            var a_dana_vol = parseFloat(x);
+
+            document.write("czytana liczba x=" + a_dana_vol + "<br>");
+
+            if (a_dana_vol % 2 == 0) {
+                document.write("<font color='silver' size='3'>liczba jest parzysta</font><br>");
+            }
+
+            if (a_dana_vol % 2 != 0) {
+                document.write("<font color='silver' size='5'>liczba jest nieparzysta</font><br>");
+            }
+
+        </script>
+
+    </div>
+
+</body>
+</html>
+
+<!-- Voloshchuk Z36_JS -->
+
+ </textarea>
+
+</form>
+<input type="button" value="zamknij okno" onclick="okno_zamknij_siejka()"/>
+<script type="text/javascript">
+</script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<html>
+<head>
+ <script type="text/javascript">
+ function okno_zamknij_siejka()
+ {
+ window.close()
+ }
+ </script>
+</head>
+<body>
+ <form>
+
+ <textarea name="siejka" cols="80" rows="20" readonly>
+
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <title>Voloshchuk Z40</title>
+</head>
+
+<body>
+
+    <div style="color:red;font-size:50px;">
+
+        <script language="JavaScript">
+
+            var x = prompt("podaj argument x=", "");
+            var x_vol = parseFloat(x);
+
+            document.write("wykonał Matvii Voloshchuk<br>");
+            document.write("czytany argument x=" + x_vol + "<br>");
+
+            function f_vol(x_vol) {
+
+                if (x_vol >= 1) {
+                    return 1;
+                }
+
+                if ((x_vol => -2) && (x_vol < 1)) {
+                    return x_vol * x_vol;
+                }
+
+                if (x_vol < -2) {
+                    return 4;
+                }
+
+            }
+
+            document.write("f(" + x_vol + ")=" + f_vol(x_vol) + "<br>");
+
+        </script>
+
+    </div>
+
+</body>
+</html>
+
+<!-- Voloshchuk Z40_JS -->
+
+ </textarea>
+
+</form>
+<input type="button" value="zamknij okno" onclick="okno_zamknij_siejka()"/>
+<script type="text/javascript">
+</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<html> 
+     <head> 
+           <script type="text/javascript"> 
+              function spodnie(rodzaj_k,kolor_k,rozmiar_k) // start 
+  { 
+   this.rodzaj=rodzaj_k; 
+   this.kolor=kolor_k; 
+   this.rozmiar=rozmiar_k;   
+  } //koniec 
+              spodnie.prototype.wypisz_voloshchuk = function () //definicja metody 
+      { 
+         alert(this.rodzaj + ' ' + this.kolor+ ' ' + this.rozmiar); 
+      }; 
+  var spodniea = new spodnie("Sportowe", "10", "XS"); // nowy obiekt spodnie
+  var spodnieb = new spodnie('Dresy', '170', 'XXL'); 
+  spodniea.wypisz_voloshchuk(); // uruchomienie metody wypisz_voloshchuk() dotyczącej spodnie a
+  spodnieb.wypisz_voloshchuk(); 
+                document.write("dostęp do właściwości"+"<br>"); 
+// poniżej dostęp do pól spodniea 
+     document.write("spodnie a"+"   "+spodniea.rodzaj+"   "+spodniea.kolor+"   "+spodniea.rozmiar); 
+            </script> 
+     </head> 
+<body> 
+ <br> 
+   programowanie obiektowe   
+</body>
+</html> 

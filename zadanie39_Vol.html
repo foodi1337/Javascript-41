@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <title>Voloshchuk Z39_JS</title>
+</head>
+
+<body>
+
+    <script>
+
+        function fun_vol() {
+
+            var x_vol = prompt("Podaj kolor", "");
+
+            if (x_vol == 1 || x_vol.toLowerCase() == "czerwony") {
+                document.write('<h1 style="color:red;">wczytałeś kolor czerwony</h1><br />');
+            }
+            else if (x_vol == 2 || x_vol.toLowerCase() == "niebieski") {
+                document.write('<h6 style="color:blue;">wczytałeś kolor niebieski</h6><br />');
+            }
+
+        }
+
+        document.write('<p style="color:green;font-size:1cm;"><b>MENU</b><br><br><br>');
+        document.write('<p style="color:red;font-size:1cm;"><b>1-Czerwony</b><br>');
+        document.write('<p style="color:blue;font-size:1cm;"><b>2-Niebieski</b><br>');
+
+    </script>
+
+    <input type="button" name="voloshchuk" value="Oblicz" onclick="fun_vol()" />
+
+</body>
+
+</html>
+
+<!-- Voloshchuk Z39_JS -->
